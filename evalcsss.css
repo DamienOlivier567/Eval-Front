@@ -1,0 +1,142 @@
+#menu{
+    display: block ;
+    width: 500px ;
+    height: 190px;
+    padding: 5px 0 ;
+    border: 1px solid white ;
+    background-color: green ;
+    color: white ;
+    text-decoration: none ;
+    margin: 10px ;
+    text-align: left ;
+    border-radius: 5px;
+    font-size: 15px;
+    position: fixed;
+    top: 20%; left: 40%;
+    transform: translate(-50%, -50%);
+}
+#Resume{
+    position: absolute;
+    color: white;
+    top: 30%; left: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+}
+#Contact{
+    position: absolute;
+    color: white;
+    top: 30%; left: 40%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+}
+#Profile{
+    display: block ;
+    width: 130px;
+    height: 200px;
+    padding: 5px 0 ;
+    border: 1px solid white ;
+    background-color: orange ;
+    color: white ;
+    text-decoration: none ;
+    margin: 10px ;
+    text-align: center ;
+    border-radius: 5px;
+    float: right;
+    position: fixed;
+    top: 20%; left: 54%;
+    transform: translate(-50%, -50%);
+}
+.menu li {
+    display: inline-block ;
+}
+.menu2 a {
+    display: block ;
+    width: 100px ;
+    padding: 5px 0 ;
+    border: 1px solid white ;
+    background-color: black ;
+    color: white ;
+    text-decoration: none ;
+    margin: 10px ;
+    text-align: center ;
+    border-radius: 5px;
+    float: left;
+}
+.menu2 li {
+    display: inline-block ;
+}
+.menu3 a {
+    display: block ;
+    width: 100px ;
+    padding: 5px 0 ;
+    border: 1px solid white ;
+    background-color: black ;
+    color: white ;
+    text-decoration: none ;
+    margin: 10px ;
+    text-align: center ;
+    border-radius: 5px;
+}
+.menu3 li {
+    display: inline-block ;
+}
+#Experience{
+    background-color: blue;
+    width: 130px;
+    height: 190px;
+    position: fixed;
+    top: 50%; left: 55%;
+    transform: translate(-50%, -50%);
+}
+#Education{
+    background-color: red;
+    width: 200px;
+    height: 190px;
+    position: fixed;
+    top: 50%; left: 29%;
+    transform: translate(-50%, -50%);
+}
+#Blog{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    position: fixed;
+    top: 50%; left: 43%;
+    transform: translate(-50%, -50%);
+}
+#Social{
+    background-color: orange;
+    width: 200px;
+    height: 190px;
+    position: fixed;
+    top: 80%; left: 29%;
+    transform: translate(-50%, -50%);
+}
+#Contct{
+    background-color: blue;
+    width: 210px;
+    height: 190px;
+    position: fixed;
+    top: 80%; left: 45%;
+    transform: translate(-50%, -50%);
+}
+#Portfolio{
+    background-color: orange;
+    width: 130px;
+    height: 190px;
+    position: fixed;
+    top: 80%; left: 55%;
+    transform: translate(-50%, -50%);
+}
+#image{
+    float: right;
+    height: 50px;
+    width: 130px;
+    position: fixed;
+    top: 9%; left: 65%;
+    transform: translate(-50%, -50%);
+}
