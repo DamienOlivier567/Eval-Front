@@ -1,0 +1,95 @@
+a{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+#Profile{
+    border-style: solid;
+    background-color: green;
+    color: white;
+}
+
+#t{
+    background-color: orange;
+    border-style: none;
+}
+
+#Resume{
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+#Contact{
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-align: right;
+}
+
+#Profile1{
+    border-style: none;
+    height: 200px;
+    background-color: orange;
+    border-color: black;
+    text-align: center;
+    color: white;
+}
+
+#Experience{
+    border-style: solid;
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    border-color: white;
+    text-align: center;
+    color: white;
+}
+
+#Education{
+    border-style: solid;
+    background-color: red;
+    border-color: white;
+    text-align: center;
+    color: white;
+}
+
+#Blog{
+    border-style: solid;
+    background-color: green;
+    border-color: white;
+    text-align: center;
+}
+
+#Social{
+    border-style: solid;
+    height: 200px;
+    background-color: orange;
+    border-color: white;
+    text-align: center;
+}
+
+#Contact1{
+    border-style: solid;
+    background-color: blue;
+    border-color: white;
+    text-align: center;
+}
+
+#Portfolio{
+    border-style: solid;
+    background-color: orange;
+    border-color: white;
+    text-align: center;
+}
+
+#capture{
+    position: absolute;
+    left: 585px;
+    top: 10px;
+}
+

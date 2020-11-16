@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#debut, #profile{
+    display: inline-block;
+}
+
+
+#debut{
+    background-color: mediumseagreen;
+    color: white;
+    padding: 3rem;
+    display: inline-block;
+    width: 40%;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+#resume{
+    border-style: solid;
+    border-color: white;
+}
+
+#contact{
+    border-style: solid;
+    border-color: white;
+}
+
+#profile{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    display: inline-block;
+    width: 20%;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+
+#experience, #education, #blog{
+    display: inline-block;
+}
+
+
+#experience{
+    background-color: blue;
+    width: 20%;
+    height: 40%;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+
+#education{
+    background-color: red;
+    width: 20%;
+    height: 40%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+
+#blog{
+    background-color: mediumseagreen;
+    width: 20%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: hidden;
+    display: block;
+}
+
+
+#social{
+    background-color: orange;
+    width: 20%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: auto;
+    display: inline-block;
+}
+
+
+#contatc{
+    background-color: blue;
+    width: 20%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+#portfolio{
+    background-color: orange;
+    width: 20%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-right: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+#keanu{
+    width: 40%;
+    height: 33rem;
+    position: relative;
+    bottom: 45rem;
+    left: 22.5rem;
+}
+
+
+@media screen and (max-width: 400px){
+    #keanu{
+        display: none;
+        left: 10rem;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #debut{
+        width: 100%;
+        display: block;
+    }
+
+    #education, #contatc, #portfolio, #profile, #blog, #social, #experience{
+        font-size: 85%;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
